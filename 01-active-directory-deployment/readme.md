@@ -35,8 +35,7 @@ This lab demonstrates the initial deployment of an Active Directory environment 
 Opened Windows Server and verified the Active Directory management tools were available.
 
 
-Windows Server Dashboard <img width="1912" height="1019" alt="Screenshot 2026-07-13 140936" src="https://github.com/user-attachments/assets/0503e8e6-1ad3-42e5-a35a-79a517696dd3" />
-
+Windows Server Dashboard <img width="1426" height="747" alt="server manager dashboard" src="https://github.com/user-attachments/assets/8644dae6-4279-44b5-ae85-9959f14e6a12" />
 
 
 ---
@@ -148,6 +147,7 @@ https://github.com/user-attachments/assets/6f78ee47-805a-457a-913f-c8b56027a8b8
 ➡️ **02 - Group Policy Management**
 
 In the next lab, Group Policy Objects (GPOs) will be configured to centrally manage user and computer settings across the Active Directory environment.
+
 
 
 
