@@ -144,7 +144,7 @@ https://github.com/user-attachments/assets/6f78ee47-805a-457a-913f-c8b56027a8b8
 
 ## Next Lab
 
-[➡️ **02 - Group Policy Management**](./02%20-%20Group%20Policy%20Management%20(part%20-1))
+[➡️ **02 - Group Policy Management**](../03%20-%20Group%20Policy%20Deployment%20&%20Testing/)
 
 In the next lab, Group Policy Objects (GPOs) will be configured to centrally manage user and computer settings across the Active Directory environment.
 
