@@ -153,7 +153,7 @@ This lab introduced the fundamentals of Group Policy Management in Active Direct
 
 ## Next Lab
 
-➡️ [ Group Policy Management part-2]
+➡️ [Group Policy Management (Part 2)](../Group%20Policy%20Management%20(part-2)/)
 
 
 
