@@ -151,7 +151,7 @@ In the next lab, Group Policy Objects (GPOs) will be configured to centrally man
 
 
 
-
+➡️ [02 - Group Policy Management](https://github.com/Rohanpinto3/enterprise-Active-Directory-lab/tree/1cf9ecda02db0f916d2ed1952d062f135855c4a7/02%20-%20Group%20Policy%20Management%20(part%20-1))
 
 
 
