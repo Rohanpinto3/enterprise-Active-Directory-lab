@@ -151,7 +151,9 @@ https://github.com/user-attachments/assets/f504571a-84c7-498a-9562-dbda2fc61598
 
 This lab introduced the fundamentals of Group Policy Management in Active Directory. I gained hands-on experience navigating the Group Policy Management Console and configuring several commonly used enterprise Group Policy Objects that are used to manage security and user environments across a Windows domain.
 
+## Next Lab
 
+➡️ [ Group Policy Management part-2]
 
 
 
