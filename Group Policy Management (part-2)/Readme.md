@@ -37,8 +37,12 @@ Created a Windows 10 Enterprise virtual machine and selected **Domain Join Inste
 
 ### Evidence
 
-- 📷 GPO SS1 – Windows 10 Setup (Domain Join Option)
-- 📷 GPO SS2 – Local User Creation (Client1)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b032951f-1e47-4f1c-90f1-00f476d3be6f" width="48%">
+  <img src="https://github.com/user-attachments/assets/43c63ab8-eab9-47c1-8c33-79440752e330" width="48%">
+</p>
+
+
 
 ---
 
@@ -62,10 +66,10 @@ ipconfig /all
 
 ### Evidence
 
-- 📷 GPO SS3 – IP Configuration
-- 📷 GPO SS4 – Static IPv4 Configuration
-- 📷 GPO SS5 – Network Verification
-
+<img width="562" height="410" alt="gpo ss3" src="https://github.com/user-attachments/assets/c7aab425-28af-4486-b257-a1b4f757f0cf" />
+<img width="355" height="375" alt="gpo ss4 p1" src="https://github.com/user-attachments/assets/1326a89d-80d7-4628-8a3c-4b84c8d7b640" />
+<img width="405" height="370" alt="gpo ss4 p2" src="https://github.com/user-attachments/assets/cedbfdee-9d29-45e2-875c-a6255bd02713" />
+<img width="842" height="612" alt="gpo ss5" src="https://github.com/user-attachments/assets/8b28fe7a-7370-4ce1-b3c0-1f234d56d5f8" />
 ---
 
 ## Step 3 – Configure Windows 10 Networking
@@ -91,10 +95,10 @@ nslookup roro.local
 
 ### Evidence
 
-- 📷 GPO SS6 P1 – IPv4 Properties
-- 📷 GPO SS6 P2 – DNS Configuration
-- 📷 GPO SS6 P3 – Ping Test
-- 📷 GPO SS6 P4 – NSLookup Verification
+<img width="356" height="377" alt="gpo ss6 p1" src="https://github.com/user-attachments/assets/c0ff56ec-7b0e-401f-a821-ff7fcd9e08b5" />
+<img width="392" height="367" alt="gpo ss6 p2" src="https://github.com/user-attachments/assets/4030b979-84df-477d-b3a4-04705f01d3cf" />
+<img width="977" height="457" alt="gpo ss6 p3" src="https://github.com/user-attachments/assets/ee3be2e7-1128-4a16-9900-63a461531fa3" />
+<img width="962" height="340" alt="gpo ss6 p4" src="https://github.com/user-attachments/assets/6396f2ef-1baf-41cb-a82f-e092398b208e" />
 
 ---
 
@@ -108,12 +112,12 @@ After successfully joining the domain, the client computer was restarted and aut
 
 ### Evidence
 
-- 📷 GPO SS7 P1 – System Properties
-- 📷 GPO SS7 P2 – Computer Name Settings
-- 📷 GPO SS7 P3 – Domain Join
-- 📷 GPO SS7 P4 – Administrator Credentials
-- 📷 GPO SS7 P5 – Domain Join Successful
-- 📷 GPO SS7 P6 – Domain User Login
+<img width="1670" height="806" alt="gpo ss7 p1" src="https://github.com/user-attachments/assets/6002a257-81a4-4927-8b94-6dcc10995c7d" />
+<img width="1897" height="842" alt="gpo ss7 p2" src="https://github.com/user-attachments/assets/c0690c36-bf22-4f03-9e1f-770d87c68815" />
+<img width="317" height="315" alt="gpo ss7 p3" src="https://github.com/user-attachments/assets/22ce5c0c-3913-4f5a-bd23-183f22f42346" />
+<img width="796" height="492" alt="gpo ss7 p4" src="https://github.com/user-attachments/assets/3d7e4d63-58d7-4239-93d1-0a01c14b0440" />
+<img width="382" height="267" alt="gpo ss7 p5" src="https://github.com/user-attachments/assets/6fb09c9d-c4f0-42da-8500-3adc89fed087" />
+<img width="1917" height="942" alt="gpo ss7 p6" src="https://github.com/user-attachments/assets/ecfaeadb-ff97-4412-90c3-2520cf2a1ec7" />
 
 ---
 
@@ -125,11 +129,11 @@ The newly joined client computer (**COMP01**) initially appeared inside the defa
 
 ### Evidence
 
-- 📷 GPO SS8 P1 – Existing Group Policy Objects
-- 📷 GPO SS8 P2 – GPOs Linked to USA OU
-- 📷 GPO SS8 P3 – Client Located in Default Computers Container
-- 📷 GPO SS8 P4 – Moving Client to USA OU
-- 📷 GPO SS8 P5 – COMP01 Inside USA Computers OU
+<img width="1915" height="846" alt="gpo ss8 p1" src="https://github.com/user-attachments/assets/252c91a0-7811-4c49-9c8b-cfd2a1a473c9" />
+<img width="268" height="626" alt="gpo ss8 p2" src="https://github.com/user-attachments/assets/9c1f9153-d28e-466b-b645-fbd39efd4414" />
+<img width="675" height="337" alt="gpo ss8 p3" src="https://github.com/user-attachments/assets/a6b7a9e1-1f33-4c26-9689-f4f1e066ad9d" />
+<img width="492" height="393" alt="gpo ss8 p4" src="https://github.com/user-attachments/assets/cf0bde51-af21-4add-8163-5083b382238c" />
+<img width="562" height="367" alt="gpo ss8 p5" src="https://github.com/user-attachments/assets/9b5dd19f-bdd0-4ad6-8f71-aa1fd410c424" />
 
 ---
 
@@ -143,7 +147,7 @@ This confirmed that the client had received the assigned policies from the Domai
 
 ### Evidence
 
-- 📷 GPO SS8 P6 – Control Panel Access Restricted
+<img width="1917" height="916" alt="gpo ss8 p6" src="https://github.com/user-attachments/assets/be116796-34e3-42c1-977d-46f1a8d11c9e" />
 
 ---
 
@@ -165,3 +169,29 @@ This confirmed that the client had received the assigned policies from the Domai
 # Learning Outcomes
 
 Through this lab, I learned how to integrate a Windows client into an Active Directory domain, configure client-server communication using DNS, deploy Group Policy Objects through Organizational Units, and validate that policies are correctly applied to domain-joined systems. This exercise demonstrates a typical enterprise workflow for managing Windows clients in an Active Directory environment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
