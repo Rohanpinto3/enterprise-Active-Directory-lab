@@ -167,5 +167,3 @@ Windows prompted for domain administrator credentials and completed the join ope
 ---
 
 
-- IT support troubleshooting workflow
-- Root cause analysis
