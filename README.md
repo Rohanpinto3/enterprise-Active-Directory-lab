@@ -5,8 +5,4 @@
 </p>
 
 working on this project
-https://files.catbox.moe/46eyf1.png
 
-<p align="center">
-  <img src="https://files.catbox.moe/46eyf1.png" alt="Wireshark Network Analysis Lab Banner" width="100%">
-</p>
