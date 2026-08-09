@@ -1,31 +1,45 @@
-# 10 - Troubleshooting Active Directory
+#  Troubleshooting Active Directory
 
-A collection of hands-on troubleshooting scenarios from my Active Directory home lab.
+Hands-on troubleshooting scenarios performed in my Windows Server / Active Directory home lab.
 
-Each case documents the issue, investigation, cause, fix, and verification.
+The goal of this section is to document real problems encountered in the lab, investigate the cause, apply a fix, and verify the result.
 
 ---
 
-## Troubleshooting Cases
+## 🛠️ Troubleshooting Labs
 
-| Troubleshooting Scenario | What I Worked On |
+### 👤 User & Account Issues
+
+| Lab | Description |
 |---|---|
-| [Account Lockout, Password Reset, Enable Account](./Account%20Lockout%2C%20Password%20Reset%2C%20Enable%20Account) | User account lockouts, password resets, and account enablement |
-| [DHCP Failure](./DHCP-Failure) | DHCP configuration and IP address assignment issues |
-| [Domain-Join Failure](./Domain-Join%20Failure) | Diagnosing Windows client domain-join problems |
-| [Group Policy Not Applying](./Group%20Policy%20Not%20Applying) | Investigating why GPO settings were not being applied |
-| [Network Share Access Denied](./Network%20Share%20Access%20Denied) | Troubleshooting access and permission issues with network shares |
-| [Resetting the Local Administrator Password](./Resetting-the-local-administrator-password) | Recovering access to a local administrator account |
-| [Wrong DNS Configuration](./Wrong%20DNS%20Configuration) | Diagnosing DNS configuration issues affecting Active Directory |
+| 🔐 [Account Lockout, Password Reset, Enable Account](./Account%20Lockout%2C%20Password%20Reset%2C%20Enable%20Account) | Troubleshooting locked accounts, password resets, and disabled accounts. |
+| 🔑 [Resetting the Local Administrator Password](./Resetting-the-local-administrator-password) | Recovering access to a local administrator account. |
 
 ---
 
-## Lab Environment
+### 🌐 Network & Domain Issues
 
-- Windows Server
-- Windows client
-- Active Directory Domain Services
-- DNS
-- DHCP
-- Group Policy
-- Windows file sharing
+| Lab | Description |
+|---|---|
+| 📡 [DHCP Failure](./DHCP-Failure) | Troubleshooting DHCP and client IP address assignment. |
+| 🧭 [Wrong DNS Configuration](./Wrong%20DNS%20Configuration) | Diagnosing DNS configuration problems affecting domain connectivity. |
+| 🖥️ [Domain-Join Failure](./Domain-Join%20Failure) | Troubleshooting Windows client domain-join problems. |
+
+---
+
+### ⚙️ Windows & Active Directory Issues
+
+| Lab | Description |
+|---|---|
+| 📋 [Group Policy Not Applying](./Group%20Policy%20Not%20Applying) | Investigating why Group Policy settings were not being applied. |
+| 📁 [Network Share Access Denied](./Network%20Share%20Access%20Denied) | Troubleshooting network share access and permissions. |
+
+---
+
+## 📂 Case Structure
+
+Each troubleshooting case contains:
+
+**Problem → Investigation → Root Cause → Resolution → Verification**
+
+Screenshots and supporting evidence are included within the individual case folders.
