@@ -26,13 +26,13 @@ I tested the policy from the Windows client by creating a user that was required
 A simple password was rejected because it did not meet the configured password requirements. A stronger password satisfying the complexity requirements was then accepted.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss1.png" width="48%">
-  <img src="ScreenShots/isp%20ss1-p2.png" width="48%">
+<img width="448" height="413" alt="isp ss1" src="https://github.com/user-attachments/assets/afcbc8b2-c943-4970-9dd0-73381efb2249" />
+<img width="1122" height="578" alt="isp ss1 p2" src="https://github.com/user-attachments/assets/20cb875f-2e23-46ca-b173-72095a2f6b68" />
 </p>
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss2.png" width="48%">
-  <img src="ScreenShots/isp%20ss2-p2.png" width="48%">
+<img width="1154" height="646" alt="isp  ss2" src="https://github.com/user-attachments/assets/88e9d3b2-d3ec-4d87-87e9-052d504da1fe" />
+<img width="702" height="558" alt="isp ss2-p2" src="https://github.com/user-attachments/assets/b6611eb2-7639-4125-b0c6-3bcc9ce6cf5e" />
 </p>
 
 ---
@@ -52,12 +52,13 @@ The policy was configured with:
 From the Windows client, I intentionally entered an incorrect password three times. The account was then locked according to the configured policy.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss3.png" width="48%">
-  <img src="ScreenShots/isp%20ss4.png" width="48%">
+  <img width="1141" height="542" alt="isp ss3" src="https://github.com/user-attachments/assets/734243fc-2a0c-4e01-9790-051f029e9ba5" />
+  <img width="819" height="586" alt="isp ss4" src="https://github.com/user-attachments/assets/2f3d07e8-040c-4f77-8543-0d8d72216cd5" />
+
 </p>
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss5.png" width="60%">
+<img width="630" height="492" alt="isp ss5" src="https://github.com/user-attachments/assets/9c1b6695-01f6-4c8d-8454-d480d9042b19" />
 </p>
 
 ---
@@ -75,7 +76,7 @@ The **IT** group was added to:
 **Deny log on locally**
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss6.png" width="60%">
+<img width="1532" height="724" alt="isp ss6" src="https://github.com/user-attachments/assets/7d3173d3-e5f3-4604-b632-353a9728640e" />
 </p>
 
 ### Allow Log on Through Remote Desktop Services
@@ -87,7 +88,7 @@ I also configured:
 and assigned the required group.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss7.png" width="60%">
+ <img width="1485" height="754" alt="isp ss7" src="https://github.com/user-attachments/assets/d5136f9d-b1b4-47ba-b479-aee70ef5236b" />
 </p>
 
 ### Testing
@@ -95,13 +96,14 @@ and assigned the required group.
 I tested the local logon restriction using an account that was not included in the permitted group.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss8.png" width="60%">
+  <img width="863" height="595" alt="isp ss8" src="https://github.com/user-attachments/assets/e0f881ab-7ab7-41a0-b078-c49ab61fea0c" />
+  
 </p>
 
 I then configured Remote Desktop on the Windows 10 client and attempted to connect using a regular user account. The connection was denied by the configured policy.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss9.png" width="60%">
+<img width="1442" height="804" alt="isp ss10" src="https://github.com/user-attachments/assets/6c4d92d8-5526-4174-82dc-9a710a31886a" />
 </p>
 
 ---
@@ -117,7 +119,8 @@ For example, an organization could require stronger password requirements for pr
 I configured and reviewed a Fine-Grained Password Policy in Active Directory.
 
 <p align="center">
-  <img src="ScreenShots/isp%20ss10.png" width="60%">
+  <img width="818" height="418" alt="isp ss9" src="https://github.com/user-attachments/assets/f2322dd7-b36d-452b-afba-6589790130ee" />
+<img width="1910" height="748" alt="isp ss11" src="https://github.com/user-attachments/assets/4c687065-ce45-4bf8-a28c-5ffd3e6ac831" />
 </p>
 
 ---
@@ -136,8 +139,11 @@ I configured and reviewed a Fine-Grained Password Policy in Active Directory.
 
 ---
 
-## Navigation
 
-⬅️ [03 - File Services and Network Sharing](../03%20-%20File%20Services%20and%20Network%20Sharing/)
 
-➡️ **Next Lab**
+
+
+
+
+
+
